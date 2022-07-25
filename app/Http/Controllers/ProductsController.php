@@ -62,7 +62,7 @@ class ProductsController extends Controller
     }
     public function afterPayment()
     {
-      session::flash('success','Payment successful!');
+      session::flash('success','Payment successful for the Item!');
         return redirect('/products');
     }
 }
