@@ -39,7 +39,7 @@
             @foreach($select_product as $sel_products_key => $sel_product_array)
             <div class="item">
                 <h3 class="center">{{$sel_product_array['name']}}</h3>
-                <img src="http://localhost/stripe-tasks/stripe-charge/public/storage/{{$sel_product_array['image_name']}}" alt="No_image" style="margin-left:20%">
+                <img src="http://localhost/laravel_cashier_stripe/public/storage/{{$sel_product_array['image_name']}}" alt="No_image" style="margin-left:20%">
                 <h3 style="float:left;width:100%">Item Price : <span style="color:green">INR {{$sel_product_array['price']}}</span></h3>
                 <h3>Product Description : <span style="color:green"> {{$sel_product_array['description']}}</h3>
             </div>
